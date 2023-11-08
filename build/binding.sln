@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiredis", "deps\hiredis.vcxproj", "{7B06A3D6-00AE-8EC6-F846-F91C684EFD82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "redis-fast-driver", "redis-fast-driver.vcxproj", "{1B6D000B-99BA-13B4-5784-0193CCF824B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B06A3D6-00AE-8EC6-F846-F91C684EFD82} = {7B06A3D6-00AE-8EC6-F846-F91C684EFD82}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(deps)", "..\deps", "{01DF18E8-89C6-A25E-0006-40F7C4BCED1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B6D000B-99BA-13B4-5784-0193CCF824B7}.Release|x64.ActiveCfg = Release|x64
+		{1B6D000B-99BA-13B4-5784-0193CCF824B7}.Release|x64.Build.0 = Release|x64
+		{1B6D000B-99BA-13B4-5784-0193CCF824B7}.Debug|x64.ActiveCfg = Debug|x64
+		{1B6D000B-99BA-13B4-5784-0193CCF824B7}.Debug|x64.Build.0 = Debug|x64
+		{7B06A3D6-00AE-8EC6-F846-F91C684EFD82}.Release|x64.ActiveCfg = Release|x64
+		{7B06A3D6-00AE-8EC6-F846-F91C684EFD82}.Release|x64.Build.0 = Release|x64
+		{7B06A3D6-00AE-8EC6-F846-F91C684EFD82}.Debug|x64.ActiveCfg = Debug|x64
+		{7B06A3D6-00AE-8EC6-F846-F91C684EFD82}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B06A3D6-00AE-8EC6-F846-F91C684EFD82} = {01DF18E8-89C6-A25E-0006-40F7C4BCED1B}
+	EndGlobalSection
+EndGlobal

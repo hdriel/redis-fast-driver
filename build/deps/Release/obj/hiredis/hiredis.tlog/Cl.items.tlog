@@ -1,0 +1,7 @@
+D:\dev\redis-fast-driver\deps\hiredis\hiredis.c;D:\dev\redis-fast-driver\build\deps\Release\obj\hiredis\deps\hiredis\hiredis.obj
+D:\dev\redis-fast-driver\deps\hiredis\net.c;D:\dev\redis-fast-driver\build\deps\Release\obj\hiredis\deps\hiredis\net.obj
+D:\dev\redis-fast-driver\deps\hiredis\sds.c;D:\dev\redis-fast-driver\build\deps\Release\obj\hiredis\deps\hiredis\sds.obj
+D:\dev\redis-fast-driver\deps\hiredis\async.c;D:\dev\redis-fast-driver\build\deps\Release\obj\hiredis\deps\hiredis\async.obj
+D:\dev\redis-fast-driver\deps\hiredis\read.c;D:\dev\redis-fast-driver\build\deps\Release\obj\hiredis\deps\hiredis\read.obj
+D:\dev\redis-fast-driver\deps\hiredis\alloc.c;D:\dev\redis-fast-driver\build\deps\Release\obj\hiredis\deps\hiredis\alloc.obj
+C:\Users\Hadriel\AppData\Roaming\nvm\v18.12.1\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc;D:\dev\redis-fast-driver\build\deps\Release\obj\hiredis\win_delay_load_hook.obj
