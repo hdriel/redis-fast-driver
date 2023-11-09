@@ -20,11 +20,9 @@
     "type": "git",
     "url": "https://github.com/hdriel/redis-fast-driver.git"
   },
-  "author": "Arseniy Pavlenko (https://github.com/h0x91b)",
+  "author": "Hadriel Benjo (https://github.com/hdriel)",
   "contributors": [
-    "Samuel Reed (https://github.com/strml)",
-    "Adrian Gierakowski (https://github.com/adrian-gierakowski)",
-    "HcgRandon (https://github.com/HcgRandon)"
+    "Hadriel Benjo (https://github.com/hdriel)"
   ],
   "keywords": [
     "redis",

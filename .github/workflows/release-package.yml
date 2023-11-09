@@ -22,9 +22,8 @@ jobs:
                   scope: '@hdriel'
 
             - name: installing packages
-              run: | # Install npm packages
+              run: |
                   npm ci --force --production
-                  npm i cross-env
 
             - name: publish step
               run: npm publish
