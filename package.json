@@ -12,9 +12,13 @@
     "bench": "matcha benchmarks/*.js",
     "lint": "eslint ."
   },
+  "publishConfig": {
+    "registery": "https://registry.npmjs.org/@hdriel/",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/h0x91b/redis-fast-driver.git"
+    "url": "https://github.com/hdriel/redis-fast-driver.git"
   },
   "author": "Arseniy Pavlenko (https://github.com/h0x91b)",
   "contributors": [
@@ -30,9 +34,9 @@
   "license": "MIT",
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/h0x91b/redis-fast-driver/issues"
+    "url": "https://github.com/hdriel/redis-fast-driver/issues"
   },
-  "homepage": "https://github.com/h0x91b/redis-fast-driver",
+  "homepage": "https://github.com/hdriel/redis-fast-driver",
   "dependencies": {
     "nan": "^2.17.0"
   },
