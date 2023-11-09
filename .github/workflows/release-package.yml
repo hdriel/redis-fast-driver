@@ -33,10 +33,6 @@ jobs:
                   npm ci --force --production
                   npm i cross-env
 
-            - name: building package
-              run: | # build lib output before publish
-                  npm run build
-
             - name: publish step
               run: npm publish
               env:
